@@ -19,7 +19,7 @@ class BinaryFileWorker :  public FileWorker
 
 				for (std::size_t i = 0; i < str.size(); ++i)
 				{
-					cout << bitset<8>(str.c_str()[i]) << endl;
+					cout << bitset<8>(str.c_str()[i]) << " ";
 				}
 
 				cout << endl;
